@@ -5,7 +5,7 @@
   "publisher": "ZainDevTools",
   "version": "0.0.2",
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.100.0"
   },
   "categories": [
     "Other"
