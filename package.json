@@ -2,10 +2,10 @@
   "name": "console-log-helper",
   "displayName": "console-log-helper",
   "description": "insert console.log quickly",
-   "publisher": "ZainDevTools",
+  "publisher": "ZainDevTools",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Other"
@@ -30,9 +30,9 @@
     ]
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/zain11000/console-log-helper.git"
-},
+    "type": "git",
+    "url": "https://github.com/zain11000/console-log-helper.git"
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -42,14 +42,14 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.100.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
+    "@types/vscode": "^1.70.0",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
-    "eslint": "^9.25.1",
-    "typescript": "^5.8.3",
     "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.5.2"
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3"
   }
 }
